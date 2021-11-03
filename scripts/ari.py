@@ -12,4 +12,4 @@ def ari_to_features(ari):
     client_credentials_manager = SpotifyClientCredentials(client_id=cid, client_secret=secret)
     sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
     
-    sp.audio_features(ari)
+    return sp.audio_features(ari)
