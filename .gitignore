@@ -1,3 +1,4 @@
 secret.txt
 *.cache
 *.
+__pycache__
