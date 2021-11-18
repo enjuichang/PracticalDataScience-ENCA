@@ -1,4 +1,3 @@
 secret.txt
-*.cache
-*.
-__pycache__
+.cache
+.ipynb_checkpoints/
