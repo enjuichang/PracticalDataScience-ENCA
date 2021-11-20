@@ -1,10 +1,10 @@
 ### Full script code below ###
+import spotipy
+from spotipy.oauth2 import SpotifyClientCredentials
 
 def ari_to_features(ari):
-    import spotipy
-    from spotipy.oauth2 import SpotifyClientCredentials
     
-    cid = 'a3464137dc59465f81d287f5626212c5'
+    cid = 'd2ac9b58eebb4025a28f27e72e2ca133'
 
     with open("secret.txt") as f:
         secret = f.readlines()[0]
