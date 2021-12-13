@@ -3,36 +3,44 @@
 <head>
 	<title>Home</title>
 	<!-- <link rel="stylesheet" type="text/css" href="../static/css/styles.css"> -->
-	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 
 	<header>
-		<div class="container">
-		<div id="brandname">
+		<div id="name1">
 			Machine Learning App with Flask
-		</div>
-		<h2>Song recommendation system</h2>
-		
-	</div>
+		<h2 style='margin-top: -0.5%' id='name2'>Song recommendation system</h2>
+	</div>	
 	</header>
 
-	<div class="ml-container">
-        <!-- CHANGE HERE FOR RECOMMEND INSTEAD -->
-		<form action="{{ url_for('home')}}" method="POST">
-		<p>Please insert the playlist URL here</p>
-		<!-- <input type="text" name="comment"/> -->
-		<textarea name="message" rows="4" cols="50"></textarea>
-		<br/>
+	<div class='container'>
+		<div class="input_field">
+			<h2 style='color: #ececec'> Please, input a playlist ID</h2>
+				<div class="ml-container">
+					<form action="{{ url_for('recommend') }}"  id="form1" method="POST">
+						<input class="input1" type="text" name="URL">
+							<label style='color: #ececec' for="number-of-recs" >How many songs do you want?:</label>
+							<select name="number-of-recs" id="number-of-recs" form="form1">
+								<option value="5" selected> 5</option>
+								<option value="10">10</option>
+								<option value="15">15</option>
+								<option value="20">20</option>
+							</select>
+						<input class='button1' form='form1' type="submit">
+					</form>
+				</div>
+		</div>
 
-		<input type="submit" class="btn-info" value="recommend">
-		
-	</form>
-		
+	<div style="display: inline; color: #ececec" class='description'>
+		<p> This app can be used by anyone who wants to obtain 10 song recommendations to any playlist with at least 1 song. It is based on a ...</p>
 	</div>
 
-	
-	
+		<div class="results">
+			{% block results %}
+			{% endblock %}
+		</div>
+	</div>
 
 </body>
 </html>

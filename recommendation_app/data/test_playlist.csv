@@ -1,0 +1,19 @@
+,id,title,first_artist,all_artists,danceability,energy,key,loudness,mode,acousticness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature
+0,6l6XdpIyh6RJ4gmdqoz0D6,Replay - Dorian Electra Remix,Lady Gaga,"['Lady Gaga', 'Dorian Electra', 'Chris Greatti', 'Count Baldor']",0.621,0.751,8,-4.304,1,0.0053,0.0,0.145,0.491,124.965,229407,4
+1,2dAHKe37uyUrB0v0PJrDDj,Body And Mind,girl in red,['girl in red'],0.575,0.572,10,-5.928,0,0.0718,0.0,0.0995,0.551,150.894,186672,4
+2,5LCKQ7PXZRIKnBbABb7ed0,Call Me Mother,RuPaul,['RuPaul'],0.859,0.828,6,-6.925,0,0.0156,0.000828,0.0205,0.36,124.023,201013,4
+3,4ZtFanR9U6ndgddUvNcjcG,good 4 u,Olivia Rodrigo,['Olivia Rodrigo'],0.563,0.664,9,-5.044,1,0.335,0.0,0.0849,0.688,166.928,178147,4
+4,3WXhshrs1fzwF3rQE399Gq,Kill V. Maim,Grimes,['Grimes'],0.578,0.947,11,-2.431,0,0.00744,0.0816,0.105,0.456,134.033,246007,4
+5,49vGXZnxbPNxVfW8vUMeeG,Be My Valentine,LOBODA,['LOBODA'],0.607,0.923,6,-3.589,0,0.00675,0.0,0.641,0.848,124.809,181002,4
+6,5fMV4SvvtVNtVWar5qYgOl,Comme Des Garçons (Like The Boys) - Pabllo Vittar x Brabo Remix,Rina Sawayama,"['Rina Sawayama', 'Pabllo Vittar', 'Brabo']",0.836,0.789,7,-5.611,1,0.0212,0.00322,0.367,0.44,121.021,222491,4
+7,1gUAX2ImxDsB3YDcyxMXlB,カワキヲアメク,美波,['美波'],0.541,0.846,6,-2.729,0,0.0122,0.000149,0.163,0.524,129.138,251933,4
+8,0vWUhCPxpJOJR5urYbZypB,Hypnotized,Purple Disco Machine,"['Purple Disco Machine', 'Sophie and the Giants']",0.69,0.813,11,-5.084,0,0.0968,0.000324,0.109,0.704,108.078,195658,4
+9,6IFwG4pnVPcpwX4kXFUbsV,Influence,Tove Lo,"['Tove Lo', 'Wiz Khalifa']",0.768,0.593,5,-9.643,0,0.0993,0.000184,0.105,0.329,104.954,224507,4
+10,6WbTTAGKrQtCQvmc5BuYfh,Girls in the Hood,Megan Thee Stallion,['Megan Thee Stallion'],0.821,0.863,6,-3.159,1,0.00824,0.0,0.0377,0.874,180.013,154324,4
+11,3NILSt8vgJrRqwWkwB8das,Discounts,cupcakKe,['cupcakKe'],0.791,0.81,1,-5.397,1,0.0577,0.0,0.116,0.867,159.949,176040,4
+12,5xAWmFcVahpKuhIUqEmOUn,Жива,The Hardkiss,['The Hardkiss'],0.438,0.852,10,-4.124,0,0.000621,0.0,0.091,0.428,164.095,245840,4
+13,7HKxTNVlkHsfMLhigmhC0I,Call Me,Blondie,['Blondie'],0.554,0.833,2,-6.667,0,0.000646,0.0025,0.0737,0.773,142.673,212227,4
+14,7zE6pyXLjUCOy8PG0UL5SZ,Big Girls Cry,Sia,['Sia'],0.469,0.592,5,-4.962,1,0.0393,0.0,0.105,0.0938,161.996,210613,4
+15,0nzGWlaLAHRLhKba8TE5vn,Free the Animal,Sia,['Sia'],0.674,0.877,5,-4.945,1,0.0559,0.000112,0.0836,0.383,109.038,264867,4
+16,73Mfgc0HTZeNCoNrDI46sJ,Move Your Body,Sia,['Sia'],0.617,0.842,10,-4.062,0,0.00117,0.261,0.131,0.36,127.955,247213,4
+17,6s5uwOWkYK20spzICXQPNm,XS - Bree Runway Remix,Rina Sawayama,"['Rina Sawayama', 'Bree Runway']",0.629,0.932,2,-2.859,0,0.169,0.0,0.0564,0.735,117.049,202940,4
