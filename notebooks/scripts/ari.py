@@ -1,10 +1,11 @@
 ### Full script code below ###
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
+import re 
 
 def ari_to_features(ari):
-    
-    cid = 'a3464137dc59465f81d287f5626212c5'
+
+    cid = 'd2ac9b58eebb4025a28f27e72e2ca133'
 
     with open("secret.txt") as f:
         secret = f.readlines()[0]
@@ -26,9 +27,14 @@ def ari_to_features(ari):
     #Add in extra features
     features["artist_pop"] = artist_pop
     if artist_genres:
-        features["genres"] = artist_genres[0]
+        features["genres"] = " ".join([re.sub(' ','_',i) for i in artist_genres])
     else:
         features["genres"] = "unknown"
     features["track_pop"] = track_pop
     
     return features
+
+if __name__ == "__main__":
+    # Debug
+    result = ari_to_features("1o0nAjgZwMDK9TI4TTUSNn")
+    print(result)
