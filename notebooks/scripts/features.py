@@ -7,7 +7,7 @@ import pandas as pd
 def extract(URL):
     client_id = 'd2ac9b58eebb4025a28f27e72e2ca133'
 
-    with open("notebooks/secret.txt") as f:
+    with open("secret.txt") as f:
         client_secret = f.readlines()[0]
 
     client_credentials_manager = SpotifyClientCredentials(client_id=client_id,client_secret=client_secret)
@@ -68,5 +68,6 @@ def extract(URL):
 
 if __name__ == "__main__":
     # Debug
-    df = extract("https://open.spotify.com/playlist/0LCpnFsEdjhjPEZEFjGpgR?si=bab88565973048ba")
-    df.to_csv("data/test_playlist.csv", index = False)
+    print(extract("https://open.spotify.com/playlist/0LCpnFsEdjhjPEZEFjGpgR?si=bab88565973048ba"))
+    #df = extract("https://open.spotify.com/playlist/0LCpnFsEdjhjPEZEFjGpgR?si=bab88565973048ba")
+    #df.to_csv("data/test_playlist.csv", index = False)
