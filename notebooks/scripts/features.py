@@ -5,12 +5,13 @@ import re
 import pandas as pd
 
 def extract(URL):
-    client_id = 'd2ac9b58eebb4025a28f27e72e2ca133'
 
     with open("secret.txt") as f:
-        client_secret = f.readlines()[0]
+        secret_ls = f.readlines()
+        cid = secret_ls[0][:-2]
+        secret = secret_ls[1]
 
-    client_credentials_manager = SpotifyClientCredentials(client_id=client_id,client_secret=client_secret)
+    client_credentials_manager = SpotifyClientCredentials(client_id=cid,client_secret=secret)
     sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
        # the URI is split by ':' to get the username and playlist ID
