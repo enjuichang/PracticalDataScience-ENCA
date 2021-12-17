@@ -1,20 +1,58 @@
-# Spotify Playlist Recommendation
+# Enhance your Playlists with Machine Learning: Spotify Automatic Playlist Continuation
 
-The goal of this repo is to recommend songs for a given playlist based on 1) audio features 2) text features 3) playlist title.
+This is the repository of the group project [Enhance your Playlists with Machine Learning: Spotify Automatic Playlist Continuation](https://medium.com/@enjui.chang/enhance-your-playlists-with-machine-learning-spotify-automatic-playlist-continuation-2aae2c926e77). The four articles in the series is linked below:
+**Part I**: [Extracting song data from Spotify’s API in Python](https://cameronwwatts.medium.com/extracting-song-data-from-the-spotify-api-using-python-b1e79388d50)
+**Part II**: EDA and Clustering
+**Part III**: [Building a Song Recommendation System with Spotify](https://medium.com/@enjui.chang/part-iii-building-a-song-recommendation-system-with-spotify-cf76b52705e7)
+**Part IV**: [Deploying a Spotify Recommendation Model with Flask](https://medium.com/@yaremko.nazar/deploying-a-spotify-recommendation-model-with-flask-20007b76a20f)
 
-## How to use:
+The code for all four articles is in this repository.
+
+## Introduction
+
+The goal of this project is to recommend songs for a given playlist. This project starts from data collection all the way to model deployment to ensure you have a working model to showcase.
+
+## How to use
 
 To clone the repository:
 ```sh
 git clone https://github.com/enjuichang/PracticalDataScience-ENCA.git
 ```
 
+## Process
+
+The following image is the flow chart of the project:
+
+<img width="810" alt="Screen Shot 2021-12-18 at 12 02 45 AM" src="https://user-images.githubusercontent.com/55577469/146573138-09798463-c9fe-45b9-adc3-f95556e30564.png">
+
 ### Data extraction
 
+
+#### Spotify Credentials Storage and Access
+
+Spotify credentials should be stored the in the a `secret.txt` file with the first line as the **credential id** and the second line as the **secret key**:
+
+<img width="293" alt="Screen Shot 2021-12-18 at 12 10 03 AM" src="https://user-images.githubusercontent.com/55577469/146574104-804def73-54ec-449a-931c-86372d3a07a6.png">
+
+To access this credentials, please use the following code:
+
+```python
+with open("secret.txt") as f:
+    secret_ls = f.readlines()
+    cid = secret_ls[0][:-2]
+    secret = secret_ls[1]
+```
 ### EDA and clustering
 
 ### Recommendation Model
-In this project, we tried to create a recommendation based on only the audio features and also combining the audio features and text features.
+The recommendation model is summarized in the `content_based_recsys.ipynb` notebook. In this section, we will go through the process of building a content-based filtering recommendation. The following parts will be covered:
+
+1. Package Setup
+2. Preprocessing
+3. Feature Generation
+4. Content-based Filtering Recommendation
+
+Please follow the instruction in the notebook to produce the result.
 
 ### Deployment
 
@@ -46,9 +84,7 @@ pip3 install -r requirements.txt
 │   ├── test           <- The test data sets for testing.
 │   └── final          <- The final data sets for modeling.
 │
-│
 ├── models             <- Trained models, model predictions, or model summaries.
-│
 │
 ├── notebooks          <- Serialized Jupyter notebooks created in the project.
 │   ├── script         <- Script for data extraction and loading data
@@ -56,11 +92,10 @@ pip3 install -r requirements.txt
 │   ├── EDA            <- Exploratory data analysis process.
 │   └── Recsys         <- The training of traditional statistical models.
 │
-├── templates          <- HTML code for model deployment.
-│
-├── app.py             <- Code for deploying of the model.
-│
-├── Procfile           <- Procfile for Heroku.
+├── recommendation_app <- Model deployment folder
+│   ├── application    <- Code for model deployment and website design
+│   ├── data1          <- Pretrained data for model
+│   └── venv           <- Environment
 │
 └── requirements.txt   <- The requirements file for reproducing the analysis environment.
 ```
