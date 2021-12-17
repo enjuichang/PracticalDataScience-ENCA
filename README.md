@@ -3,11 +3,12 @@
 The goal of this repo is to recommend songs for a given playlist based on 1) audio features 2) text features 3) playlist title.
 
 ## How to use:
+
+To clone the repository:
 ```sh
 git clone https://github.com/enjuichang/PracticalDataScience-ENCA.git
 ```
 
-## Process
 ### Data extraction
 
 ### EDA and clustering
@@ -41,14 +42,17 @@ pip3 install -r requirements.txt
 ├── README.md          <- The top-level README for developers using this project.
 ├── data
 │   ├── raw            <- The original, immutable data dump.
-│   └── processed      <- The final, canonical data sets for modeling.
+│   ├── processed      <- The preprocessed data sets for training.
+│   ├── test           <- The test data sets for testing.
+│   └── final          <- The final data sets for modeling.
 │
-├── models             <- Trained and serialized models, model predictions, or model summaries.
 │
-├── images             <- Images for the notebooks.
+├── models             <- Trained models, model predictions, or model summaries.
+│
 │
 ├── notebooks          <- Serialized Jupyter notebooks created in the project.
-│   ├── All            <- Notebook that includes all codes.
+│   ├── script         <- Script for data extraction and loading data
+│   ├── Extraction     <- Data extraction using Spotify API
 │   ├── EDA            <- Exploratory data analysis process.
 │   └── Recsys         <- The training of traditional statistical models.
 │
