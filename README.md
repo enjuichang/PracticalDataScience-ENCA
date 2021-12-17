@@ -13,13 +13,27 @@ git clone https://github.com/enjuichang/PracticalDataScience-ENCA.git
 ### EDA and clustering
 
 ### Recommendation Model
-    In this project, we tried to create a recommendation based on only the audio features and also combining the audio features and text features.
-
-#### Only Audio features
-
-#### Audio + text features
+In this project, we tried to create a recommendation based on only the audio features and also combining the audio features and text features.
 
 ### Deployment
+
+In order to access the final version of the app, please visit the following link: nazaryaremko1.pythonanywhere.com
+A demo version of the website can be accessed and tested out there. Due to the limitations of file sizes that can be uploaded to pythonanywhere, it the model there is trained only on a subset of the data. To test the full functionality of the model, please, download the repository data, cd into the folder and run the following commands:
+```sh
+cd recommendation_app
+python wsgi.py
+```
+Then visit the local host and try out the model using any playlist!
+
+To create a virtual environment, you can run the following commands:
+```sh
+python3 -m venv venv
+source venv/bin/activate (or venv\Scripts\activate if you are using Windows)
+```
+Installing dependencies in virtual environment:
+```
+pip3 install -r requirements.txt
+```
 
 ## Repo Structure
 ```

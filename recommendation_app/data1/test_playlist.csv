@@ -1,0 +1,37 @@
+,id,title,first_artist,all_artists,danceability,energy,key,loudness,mode,acousticness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature
+0,3VIv7cwhrxDjwP7K34Peav,Adhana,Vini Vici,"['Vini Vici', 'Astrix']",0.593,0.992,6,-6.58,0,0.00808,0.822,0.165,0.0749,138.052,460870,4
+1,643KtzPEqzke4AtNGFYphF,White Dwarf,Off Limits,"['Off Limits', 'Wilders']",0.702,0.988,6,-6.475,0,0.00617,0.837,0.311,0.306,140.023,493929,4
+2,3vsf3xCBOptI3TwSsTeLfR,Deep Jungle Walk,Astrix,['Astrix'],0.618,0.885,6,-8.347,0,0.000656,0.502,0.37,0.105,138.029,555705,4
+3,7aL6PWCA4sL4nHRFrSbfl3,He.art,Astrix,['Astrix'],0.387,0.938,7,-7.859,1,0.00309,0.761,0.0853,0.0353,103.538,481739,4
+4,2asoDyx5SWDiSbrgjqJDsP,Pranava - Ranji & Mind Spin Remix,Ace Ventura,"['Ace Ventura', 'Astrix', 'Ranji', 'Mind Spin']",0.642,0.89,7,-6.313,1,0.00083,0.839,0.146,0.0782,139.993,457714,4
+5,2JBRDqCMxOixBNJdC05wJ3,Creatures,Alpha Portal,['Alpha Portal'],0.645,0.969,11,-6.915,0,7.28e-05,0.796,0.512,0.0519,144.002,446667,4
+6,56XpEMD6FtcE5UAoCgjc7q,We Are In The Shadows,Outsiders,"['Outsiders', 'Imagine Mars']",0.662,0.955,11,-6.326,0,0.000117,0.804,0.118,0.0559,143.007,427972,4
+7,4Ya3oxlcq6S5zhFx6C5ozJ,Our Moment Has Arrived - Original Mix,Outsiders,['Outsiders'],0.64,0.892,10,-6.409,0,0.00081,0.346,0.652,0.2,141.014,469787,4
+8,0bo7S1Fgvu24avdYvqxZC5,Science Is God - Outsiders Vs. Xerox Remix,Xerox,"['Xerox', 'Passenger']",0.583,0.959,1,-6.926,1,0.000255,0.831,0.193,0.31,141.999,473239,4
+9,1EiYjLRgDS3Y6XDnsBRHwI,Space Travel - Original Mix,Outsiders,"['Outsiders', 'Killerwatts']",0.601,0.978,0,-6.289,1,7.48e-05,0.777,0.681,0.216,144.994,410483,4
+10,5iyzatiVME0zoQvP9Sq7Va,Colors - UK Psychedelic Remix,Avalon,"['Avalon', 'Tristan', 'Vini Vici', 'Killerwatts']",0.608,0.924,8,-6.67,1,4.46e-05,0.671,0.142,0.0393,143.99,415115,4
+11,2fZ9SKkm4mOPOm6hUYnYRB,We Are the Creators,Vini Vici,"['Vini Vici', 'Bryan Kearney']",0.609,0.953,0,-6.603,1,0.000833,0.682,0.285,0.0376,137.986,466380,4
+12,2e0Lo1zASfP7668vXeCLV8,Psychedelic - Original Mix,Outsiders,['Outsiders'],0.641,0.981,7,-6.346,1,5.88e-06,0.839,0.194,0.331,141.997,419155,4
+13,3z2zYcsnBTwqMjVbxociKu,Stimulator - Off Limits Remix,Ace Ventura,"['Ace Ventura', 'Intelabeam', 'Off Limits']",0.564,0.873,10,-6.273,1,0.0061,0.811,0.221,0.0603,138.012,441957,4
+14,3T4m3GJ1ofMfaQ56HMyTsl,Secrets of the Universe,Ranji,"['Ranji', 'Mind Spin']",0.627,0.982,7,-5.276,1,0.00184,0.791,0.607,0.423,140.001,490286,4
+15,5Vy1X1n5R7JWrlXFLwJKI0,The Escape - Original Mix,Outside The Universe,"['Outside The Universe', 'Tristan']",0.677,0.976,5,-6.255,0,8.15e-05,0.806,0.284,0.181,145.001,450207,4
+16,7whJd5qEXwGMj42eaSIPRF,Action Jackson,Day Din,"['Day Din', 'WAIO']",0.762,0.901,11,-7.504,0,0.00719,0.885,0.145,0.398,137.99,415652,4
+17,1569aBrDArXXimh44CI89Q,The Force,Sonic Species,['Sonic Species'],0.641,0.945,7,-5.491,1,2.68e-05,0.891,0.386,0.376,141.996,463099,4
+18,5N1C45gzrJloKqod3zhDTc,Maya - Original Mix,Electric Universe,['Electric Universe'],0.565,0.971,8,-6.122,1,0.000134,0.751,0.184,0.222,145.018,437047,4
+19,4k0MLqb5SIrDqh5pMjWsKM,Gateway,Electric Universe,"['Electric Universe', 'Raja Ram']",0.54,0.981,11,-5.064,0,2.43e-05,0.708,0.134,0.108,145.023,450207,4
+20,701Y3VMDHgqWXMTKXn6Yyh,Pranava,Ace Ventura,"['Ace Ventura', 'Astrix']",0.736,0.906,7,-8.894,1,0.000632,0.863,0.0931,0.0431,137.991,584348,4
+21,2bRzvuNVNrWiSvzIzLMMVY,Psychedelic Trance - Original Mix,Talamasca,['Talamasca'],0.57,0.873,5,-7.614,0,0.000809,0.715,0.0913,0.376,145.017,461793,4
+22,4K6cLLpCAIsDzFlBycfkde,My Trip To Fantasy - Mandragora Remix,Sesto Sento,['Sesto Sento'],0.718,0.583,10,-8.11,1,0.0162,0.858,0.261,0.438,136.003,321176,4
+23,6NFPKVYtb1tUEuEdvcH5G1,Valley of Stevie,Astrix,"['Astrix', 'Ace Ventura']",0.609,0.879,6,-8.172,0,0.000617,0.844,0.126,0.161,140.01,521143,4
+24,148KyQbBQnbJkx1uCki02A,Monks,Berg,['Berg'],0.644,0.899,1,-6.888,1,0.00228,0.8,0.217,0.225,138.033,377391,4
+25,3jSaD3jo6dDGCNYZmNUbVt,Talking with U.F.O's,Vini Vici,['Vini Vici'],0.776,0.819,0,-7.264,1,0.033,0.294,0.317,0.31,137.999,466522,4
+26,1siOXc5MBKHuBnSyXj0Lf6,Anti Social Media,Coming Soon!!!,"['Coming Soon!!!', 'Bryan Kearney']",0.765,0.927,2,-5.238,1,0.0253,0.798,0.344,0.0786,138.068,440357,4
+27,65gjgw2ZsnZhy1iV9fK7b2,Raj Against The Machine - Original Mix,Talamasca,"['Talamasca', 'Raja Ram']",0.608,0.79,10,-5.699,0,0.000109,0.728,0.0803,0.321,145.016,453517,4
+28,2z4aOGMd48vq9Pa8CXMpAE,The Time Machine - Original Mix,Talamasca,['Talamasca'],0.701,0.873,7,-4.129,1,3.54e-05,0.827,0.232,0.555,140.017,524571,4
+29,1guRSzYTioLu9Dw8yIsgq4,Organic,Berg,"['Berg', 'Chapeleiro']",0.716,0.72,9,-7.166,1,0.018,0.838,0.165,0.199,138.057,413043,4
+30,04Vc0JXYX1gyC594DKsoa0,The Path,Blastoyz,"['Blastoyz', 'Berg']",0.694,0.789,6,-6.788,0,0.0136,0.829,0.13,0.317,140.029,399429,4
+31,5pCpj1JpoIUJ4lqu4SZP8J,Alteza,Vini Vici,['Vini Vici'],0.587,0.965,4,-5.845,0,0.000282,0.724,0.127,0.122,135.985,472046,4
+32,6ExQ3elJPCk0MOqb98js7A,Disco Madness,Pop Art,['Pop Art'],0.647,0.811,9,-5.782,1,0.00666,0.736,0.0958,0.451,138.01,441739,4
+33,5hdtMQGUOJqc2pnBXQA6xs,Shamanic,Ghost Rider,['Ghost Rider'],0.65,0.984,6,-4.722,0,0.00319,0.654,0.108,0.11,137.985,485217,4
+34,39WiTOyRGtOWjrCbzbrwzm,The Tribe,Vini Vici,['Vini Vici'],0.46,0.95,11,-6.148,1,0.00333,0.849,0.653,0.256,103.535,230435,3
+35,5axIixrIdqN3DrI67JLhur,Mind Games,Seven Monkeys,"['Seven Monkeys', 'Vini Vici']",0.658,0.88,4,-5.512,0,0.00924,0.105,0.135,0.0735,138.006,455652,4
