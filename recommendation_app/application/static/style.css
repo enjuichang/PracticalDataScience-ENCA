@@ -1,0 +1,118 @@
+body {
+    background-image: linear-gradient(black, rgb(53, 167, 104), rgb(169, 204, 176));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+	font:15px/1.5 Arial, Helvetica,sans-serif;
+	padding: 0px;
+	background-color:#f4f3f3;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 350px);
+}
+
+.break {
+    flex-basis: 100%;
+    height: 5px;
+  }
+
+.input_field{
+    grid-column: 1/4;
+    padding: 10%;
+    margin-top: -10%;
+    margin-left: -3%;
+}
+
+.description {
+    grid-column: 1/3;
+    grid-row: 2;
+    padding: 10%;
+    margin-top: -50%;
+}
+
+.results{
+    grid-column: 4/6;
+    grid-row:1;
+}
+
+.song {
+    background-color: #ececec;
+    border-left: solid 4px #81b71a;
+    line-height: 18px;
+    overflow: hidden;
+    padding: 12px;
+}
+
+#name1, #name2 {
+    color: #ececec;
+}
+
+input.button1, input.input1, #number-of-recs{
+    display:inline-block;
+    padding:0.46em 1.6em;
+    border:0.1em solid #000000;
+    margin:0 0.2em 0.2em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#000000;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    background-color:#81b71a;
+    text-align:center;
+    transition: all 0.15s;
+}
+
+input.input1{
+    background-color:#ececec;
+}
+
+input.button1:hover{
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    color:#FFFFFF;
+    border-color:#FFFFFF;
+}
+
+input.input1:hover{
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    color:#FFFFFF;
+    border-color:#81b71a;
+}
+
+#number-of-recs:hover{
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    color:#FFFFFF;
+    border-color:#FFFFFF;
+}
+
+@media all and (max-width:30em){
+ input.button1{
+    display:block;
+    margin:0.4em auto;
+    }
+}
+    
+.results {
+    animation-duration        : 1.5s;
+    animation-fill-mode       : both;
+    animation-iteration-count : 1;
+    animation-name            : fastSlide;
+    animation-timing-function : linear;
+    transform-origin          : bottom;
+}
+@keyframes fastSlide {
+    0%   { transform: translate(120%) skewX(0deg) ; }
+    70%  { transform: translate(0%)   skewX(1deg) ; }
+    80%  { transform: translate(0%)   skewX(0deg)  ; }
+    95%  { transform: translate(0%)   skewX(0deg) ; }
+    100% { transform: translate(0%)   skewX(0deg)   ; }
+}
+
+#about{
+    color: #f4f3f3;
+}
