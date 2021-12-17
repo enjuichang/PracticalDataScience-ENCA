@@ -11,7 +11,7 @@ def home():
    return render_template('home.html')
 
 @app.route("/about")
-def anout():
+def about():
    return render_template('about.html')
 
 @app.route('/recommend', methods=['POST'])
@@ -22,5 +22,5 @@ def recommend():
    number_of_recs = int(request.form['number-of-recs'])
    my_songs = []
    for i in range(number_of_recs):
-      my_songs.append([str(edm_top40.iloc[i,1]) + ' - '+ '"'+str(edm_top40.iloc[i,4])+'"', "https://open.spotify.com/track/"+ str(edm_top40.iloc[i,-6]).split("/")[-1]])
+      my_songs.append([str(edm_top40.iloc[i,0]) + ' - '+ '"'+str(edm_top40.iloc[i,2])+'"', "https://open.spotify.com/track/"+ str(edm_top40.iloc[i,-6]).split("/")[-1]])
    return render_template('results.html',songs= my_songs)

@@ -115,4 +115,9 @@ input.input1:hover{
 
 #about{
     color: #f4f3f3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    margin-top: 3%;
 }
