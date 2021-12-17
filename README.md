@@ -66,7 +66,7 @@ Please follow the instruction in the notebook to produce the result.
 
 ### Deployment
 
-In order to access the final version of the app, please visit the following link: nazaryaremko1.pythonanywhere.com
+In order to access the final version of the app, please visit the following link: [nazaryaremko1.pythonanywhere.com](nazaryaremko1.pythonanywhere.com)
 A demo version of the website can be accessed and tested out there. Due to the limitations of file sizes that can be uploaded to pythonanywhere, it the model there is trained only on a subset of the data. To test the full functionality of the model, please, download the repository data, cd into the folder and run the following commands:
 ```sh
 cd recommendation_app
