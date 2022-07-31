@@ -1,0 +1,1 @@
+PLAYLISTDIR="some/path"
